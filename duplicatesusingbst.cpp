@@ -1,3 +1,7 @@
+
+//This code will remove duplicates from a given string using binary search tree
+
+
 #include<iostream>
 using namespace std;
 class bst{
@@ -42,17 +46,7 @@ cout<<node->c;
 	return(root);
 }
 
-void preorder(bst*root)
-{if(root==NULL)
-return;
-cout<<root->c;
-preorder(root->left);
 
-preorder(root->right);
-//cout<<root->c;
-	
-	
-}
 int main()
 {
 	string str = {"harsh is good for others"};
@@ -67,7 +61,6 @@ int main()
 		i++;
 		
 	}
-	//preorder(root);
-	//cout<<"terminated";
+	
 	return 0;
 }
