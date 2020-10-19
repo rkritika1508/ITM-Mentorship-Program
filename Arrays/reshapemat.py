@@ -1,14 +1,11 @@
 def reshape(mat,a,b):
-    '''for i in range(a):
-        j=i
-        for j in range(b):
-            print(mat[j])'''
+    
     flat=[]
     for ele in mat:
         flat.extend(ele)
      
     for i in range(a*b):
-        if i%b==0and i!=0:
+        if i%b==0 and i!=0:
             print("")
         print(flat[i],end=" ")
         
@@ -17,16 +14,14 @@ def reshape(mat,a,b):
 m,n=input().split()
 a,b= input().split()
 mat=[]
-m=int(m)
-n=int(n)
-a=int(a)
-b=int(b)
+m,n,a,b=int(m),int(n),int(a),int(b)
 for i in range(m):
     
-    list1=list(int(num) for num in input().strip().split())[:n]
-    for i in range(len(list1)):
-        list1[i]=int(list1[i])
+    Rows=list(int(num) for num in input().strip().split())[:n]
+    for i in range(len(Rows)):
+        Rows[i]=int(Rows[i])
     mat.append(list1)
+
 if int(m*n==a*b):
     reshape(mat,a,b)
 else:
