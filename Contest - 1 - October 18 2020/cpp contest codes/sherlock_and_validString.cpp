@@ -11,17 +11,17 @@ string isValid(string s) {
         occur[s_chars[i] - 'a']++;
     }
     
-    int max_occur =-1;
-    bool removed_char = false;
-    for(int i =0; i < 26; i++){
-        if(occur[i] == 0){
+    int max_occur =-1;  // initialize maximum occuring variable as -1
+    bool removed_char = false;    //initialize removed character as false
+    for(int i =0; i < 26; i++){       
+        if(occur[i] == 0){    //if character is not present in the string then continue to next line of code
             continue;
-        }else if(max_occur == -1){
+        }else if(max_occur == -1){     // if max_occur is -1 then assign present charcter in max_occur
             max_occur = occur[i];
             continue;
-        }else if(occur[i] == max_occur){
+        }else if(occur[i] == max_occur){       
             continue;
-        }else if(!removed_char && (occur[i] == max_occur + 1 || occur[i] == 1)){
+        }else if(!removed_char && (occur[i] == max_occur + 1 || occur[i] == 1)){  // id occur[i]  == 1 the string is valid then continue and return 'yes' otherwise return 'no'
             removed_char = !removed_char;
             continue;  
         }else{
