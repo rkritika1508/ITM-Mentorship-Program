@@ -10,7 +10,7 @@
  *
  */
 bool has_cycle(SinglyLinkedListNode* head) {
-    SinglyLinkedListNode *t = head; 
+    SinglyLinkedListNode *t = head;   // here t will point to head node
 SinglyLinkedListNode *r = head;
 if(head == NULL || head->next==NULL) // Condition 1
 {
@@ -18,8 +18,8 @@ if(head == NULL || head->next==NULL) // Condition 1
 }
 while( r!=NULL&&r->next!=NULL) // Condition 2
 {
-    t = t->next; // Tortoise node
-    r = r->next->next; // Hare node
+    t = t->next; // Tortoise node i.e. node which will remain at previous nodes
+    r = r->next->next; // Hare node i.e. node which will move one node ahead of tortoise node
     if(t==r)  // Condition 3
     {
         return true;
