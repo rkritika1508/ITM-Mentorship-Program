@@ -30,7 +30,6 @@
 | Reverse Doubly Linked List | Linked List | [Link](https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1) | [Link](https://github.com/rkritika1508/ITM-Mentorship-Program/blob/master/Week%204/C%2B%2B%20Codes/ReverseDoublyLinkedList.cpp) | [Link](https://github.com/rkritika1508/ITM-Mentorship-Program/blob/master/Week%204/Python%20Codes/ReverseDoublyLinkedList.py) |
 | Rotate Doubly Linked List | Linked List | [Link](https://practice.geeksforgeeks.org/problems/rotate-doubly-linked-list-by-p-nodes/1) | [Link](https://github.com/rkritika1508/ITM-Mentorship-Program/blob/master/Week%204/C%2B%2B%20Codes/RotateDoublyLinkedList.cpp) | [Link](https://github.com/rkritika1508/ITM-Mentorship-Program/blob/master/Week%204/Python%20Codes/RotateDoublyLinkedList.py) |
 | Linked List Matrix | Linked List | [Link](https://practice.geeksforgeeks.org/problems/linked-list-matrix/1) | [Link](https://github.com/rkritika1508/ITM-Mentorship-Program/blob/master/Week%204/C%2B%2B%20Codes/LinkedListMatrix.cpp) | [Link](https://github.com/rkritika1508/ITM-Mentorship-Program/blob/master/Week%204/Python%20Codes/LinkedListMatrix.py) |
-
 | Yet Another Bookshelf | Linked List | [Link](https://codeforces.com/contest/1433/problem/B) | [Link](https://gist.github.com/RohitSingh2k/0279a90026dbde0c11654230dfb037bd) | [Link](https://codeforces.com/contest/1433/submission/96149408) |
 
 ## Assignment Questions
