@@ -13,7 +13,7 @@
 DoublyLinkedListNode* reverse(DoublyLinkedListNode* head) {
     DoublyLinkedListNode *temp = head;  // here pointer temp will point head of linked list
     DoublyLinkedListNode *current = head;     //here we will copy head's address in current pointer 
-    //here we use two pointers for storing head's address so values of head will not be lost
+   
     while(current != NULL)  // ifcurrent is not null swap the next and prev node
     {
         temp = current->prev;
