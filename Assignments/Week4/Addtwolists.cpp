@@ -25,7 +25,7 @@ struct Node* reverse(struct Node*head)
 
 struct Node* addTwoLists(struct Node* first, struct Node* second)
 {
-    // code here
+  
     first=reverse(first);
     second=reverse(second);
     struct Node*res=NULL;
