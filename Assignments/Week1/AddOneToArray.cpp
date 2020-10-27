@@ -2,10 +2,7 @@
 #include<vector>
 vector<int> Solution::plusOne(vector<int> &A) 
 {
-    int size=A.size();
-    int sum=0;
-    int carry=0;
-    sum=A[size-1]+1;
+    int size=A.size(),carry=0,sum=A[size-1]+1;
     if(sum==10)
    { carry=1;
     sum=0;}
@@ -28,7 +25,8 @@ vector<int> Solution::plusOne(vector<int> &A)
     res.insert(res.begin(),carry);
     int i =0;
     while(res[i]==0)
-        res.erase(res.begin());    
+        res.erase(res.begin());
+    
   
     
     return res;
